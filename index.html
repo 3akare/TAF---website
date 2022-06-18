@@ -16,14 +16,14 @@
             <div>
                 <a href="/">The Achievers Family</a>
             </div>
-            <div class="flex">
+            <div class=" nav-bar flex">
                 <div class="none">
                     <a href="#">Get involved</a>
                 </div>
                 <div class="none">
                     <a href="#">Who we are</a>
                 </div>
-                <a href="#" class="btn">Donate</a>
+                <button class="btn">Donate</button>
             </div>
         </nav>
     </header>
@@ -33,7 +33,11 @@
             <div class="hero">
                 <h3>Opening homes in times of crisis</h3>
                 <div>
-                    <img class="hero-image" src="/Images/pexels-julia-volk-7293100.jpg" alt="">
+                    <video width="100%" controls>
+                        <source src="movie.mp4" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                        Your browser does not support the video tag.
+                      </video>
                 </div>
             </div>
         </section>
@@ -46,12 +50,12 @@
                 <a href="#">Learn more about us</a>
             </div>
         </section>
-        <!-- details -->
+        <!-- details part 1-->
         <section>
            <div class="container details">
                 <div class="detail">
                     <div>
-                        <img src="/Images/pexels-julia-volk-7293100.jpg" alt="">
+                        <div class="details-img-1 details-img"><!--image goes here--></div>
                     </div>
                     <div>
                         <h3>The Force be with you</h3>
@@ -60,7 +64,22 @@
                 </div>
                 <div class="detail">
                     <div>
-                        <img src="/Images/pexels-julia-volk-7293100.jpg" alt="">
+                        <div class="details-img details-img-2"><!--image goes here--></div>
+                    </div>
+                    <div>
+                        <h3>The Force be with you</h3>
+                        <a href="#"> Meet Yoda</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- detail part 2 -->
+        <section>
+           <div class="container details">
+                <div class="detail">
+                    <div>
+                        <div class="details-img details-img-3"><!--image goes here--></div>
                     </div>
                     <div>
                         <h3>The Force be with you</h3>
@@ -69,27 +88,18 @@
                 </div>
                 <div class="detail">
                     <div>
-                        <img src="/Images/pexels-julia-volk-7293100.jpg" alt="">
+                        <div class="details-img details-img-4"><!--image goes here--></div>
                     </div>
                     <div>
                         <h3>The Force be with you</h3>
                         <a href="#"> Meet Yoda</a>
                     </div>
                 </div>
-                <div class="detail">
-                    <div>
-                        <img src="/Images/pexels-julia-volk-7293100.jpg" alt="">
-                    </div>
-                    <div>
-                        <h3>The Force be with you</h3>
-                        <a href="#"> Meet Yoda</a>
-                    </div>
-                </div>
-           </div>
+            </div>
         </section>
     </main>
     <footer>
-        <div class="footer">
+        <div class="footer container">
             <ul>
                 <li><a href="#">Our story</a></li>
                 <li><a href="#">Our story</a></li>
@@ -99,8 +109,10 @@
             </ul>
         </div>
         <div class="bottom-footer">
-            <h3>The Achievers Family</h3>
-            <p>&copy; 2022. All rights reserved</p>
+            <div class="container">
+                <h3>The Achievers Family</h3>
+                <p>&copy; 2022. All rights reserved</p>
+            </div>
         </div>
     </footer>
 </body>

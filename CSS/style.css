@@ -10,22 +10,38 @@ nav{
     display: inline-flex;
     padding:32px 32px;
 }
+.nav-bar{
+    align-items: center;
+}
+.nav-bar a{
+    padding: 0 10px;
+    margin: 0 20px;
+    text-decoration: none;
+    color: black;
+}
+.nav-bar a:hover{
+    padding-bottom: 10px;
+    border-bottom:solid 2px black ;
+}
 
 /* hero */
 .hero h3{
     padding-left: 32px;
-    font-size: 35px;
+    font-size: 120px;
+    text-align: center;
+    line-height: 1;
     color: var(--bg-blue);
 }
-.hero-image{
+video{
+    position: relative;
     margin-top: 2.5rem;
     border-radius: 10px;
+    z-index: 2;
 }
 /* sub-hero */
 .bg-hero{
     position: relative;
     top: -40px;
-    z-index: -1;
     background-color: var(--bg-blue);
     color: #fff;
     height: 300px;
@@ -42,23 +58,40 @@ nav{
 }
 .sub-hero a{
     color: #fff;
+    z-index: 1000;
     text-decoration: none;
-    padding-bottom: 3px;
-    border-bottom: 2px solid white;
+    padding-bottom: 13px;
+    border-bottom: 2px solid #fff;
 }
 
 /* details*/
+/* details and detail are different classes */
 .details{
    display: grid;
    grid-template-columns: repeat(2,1fr);
+}
+.details-img-1{
+    background-image: url("https://a0.muscache.com/pictures/b2f3d39e-b8a6-4fbb-86e2-cd7871f68595.jpg");
+}
+.details-img-2{
+    background-image: url("https://a0.muscache.com/pictures/d69eb793-83eb-400b-ae47-debc05edbb1b.jpg");
+}
+.details-img-3{
+    background-image: url("https://a0.muscache.com/im/pictures/d98da643-5e1c-427d-bd4d-5a5a9e39acce.jpg");
+}
+.details-img-4{
+    background-image: url("https://a0.muscache.com/im/pictures/62756ac0-24c1-415c-a540-97740309ceb4.jpg");
 }
 .detail{
     padding: 5px;
     margin: 25px 0;
 }
+.detail h3{
+    margin: 20px 0;
+}
 .detail a{
     text-decoration: none;
-    padding-bottom: 2px;
+    padding-bottom: 10px;
     border-bottom: 2px solid black;
     color: black;
 }
@@ -66,24 +99,23 @@ nav{
 /* footer */
 
 footer{
+    margin-top: 30px;
     background-color: var(--bg-blue);
 }
 .footer{
-    padding: 32px;
+    padding: 40px 0;
 }
 footer li{
     list-style: none;
-    padding: 10px 0;
+    padding: 10px;
     margin: 10px 0;
 }
 footer a{
     text-decoration: none;
     color: white;
-    padding-bottom: 10px;
-    /* border-bottom: 2px solid white; */
+    padding: 5px 0;
 }
 .bottom-footer{
-    padding: 32px;
     background-color:rgb(57, 107, 103); 
     color: #fff;
 }
