@@ -1,0 +1,92 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* navigation */
+
+nav{
+    display: inline-flex;
+    padding:32px 32px;
+}
+
+/* hero */
+.hero h3{
+    padding-left: 32px;
+    font-size: 35px;
+    color: var(--bg-blue);
+}
+.hero-image{
+    margin-top: 2.5rem;
+    border-radius: 10px;
+}
+/* sub-hero */
+.bg-hero{
+    position: relative;
+    top: -40px;
+    z-index: -1;
+    background-color: var(--bg-blue);
+    color: #fff;
+    height: 300px;
+}
+.sub-hero{
+    padding-left: 32px;
+}
+.sub-hero h3{
+    padding:80px 0;
+    padding-right: 100px;
+    padding-bottom:20px;
+    font-size:30px;
+    font-weight: 600;
+}
+.sub-hero a{
+    color: #fff;
+    text-decoration: none;
+    padding-bottom: 3px;
+    border-bottom: 2px solid white;
+}
+
+/* details*/
+.details{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+}
+.detail{
+    padding: 5px;
+    margin: 25px 0;
+}
+.detail a{
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 2px solid black;
+    color: black;
+}
+
+/* footer */
+
+footer{
+    background-color: var(--bg-blue);
+}
+.footer{
+    padding: 32px;
+}
+footer li{
+    list-style: none;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 10px;
+    /* border-bottom: 2px solid white; */
+}
+.bottom-footer{
+    padding: 32px;
+    background-color:rgb(57, 107, 103); 
+    color: #fff;
+}
+.bottom-footer p{
+    font-size: 18px;
+}
