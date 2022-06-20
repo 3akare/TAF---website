@@ -28,7 +28,7 @@ footer a:hover{
 }
 section a:hover{
     transition: all .25s ease-in-out;
-    padding-bottom: 7px;
+    padding-bottom: 3px;
 }
 .nav-bar a:hover{
     padding-bottom: 10px;

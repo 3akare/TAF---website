@@ -51,7 +51,6 @@ video{
 }
 .sub-hero a{
     color: #fff;
-    z-index: 1000;
     text-decoration: none;
     padding: 13px;
     padding-left: 0;
@@ -85,7 +84,7 @@ video{
 }
 .detail a{
     text-decoration: none;
-    padding: 13px;
+    padding: 6px;
     padding-left: 0;
     margin: 2px;
     border-bottom: 2px solid black;
@@ -109,6 +108,36 @@ video{
 }
 .donate .btn{
     margin: 0!important;
+}
+/* banner */
+
+.bg-banner{
+    margin: 100px 0;
+    background-color: var(--bg-blue);
+    color: #fff;
+    height: 400px;
+}
+.nice-image{
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-image: url("https://a0.muscache.com/im/pictures/d620d463-b55e-4b5c-ae80-d561a0675449.jpg?im_w=960");
+}
+.banner h3{
+    padding-top:30px;
+    padding-left:30px;
+}
+.banner p{
+    font-weight:300;
+    padding: 20px;
+    padding-left: 30px;
+}
+.banner a{
+    color: #fff;
+    text-decoration: none;
+    padding: 8px;
+    margin-left: 30px;
+    border-bottom: 2px solid #fff;
 }
 
 /* footer */
